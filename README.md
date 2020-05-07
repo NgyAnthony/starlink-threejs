@@ -6,7 +6,7 @@
 ## Development
 
 ### Backend
-Related to : [Python repository](https://github.com/NgyAnthony/skyfield_starlinkhttp:// "Python repository")
+Related to : [Python repository](https://github.com/NgyAnthony/skyfield_starlink "Python repository")
 
 With the CelesTrak data as a source, I used the Skyfield library from Python to decode TLE (Two Line Element set, used to describe the position of a Satellite among other things) and extract only the latitude, longitude and elevation of the satellite.
 
@@ -17,4 +17,4 @@ A simple WebGL/ThreeJS globe from Google DAT enabled me to easily place the sate
 
 ## References
 ##### **Thanks to:**
-##### [orbital_objects (Alex Rasmussen)](https://github.com/alexras/orbital_objects/http:// " orbital_objects (Alex Rasmussen)") - [WebGL Globe (Google Data Arts Team)](https://github.com/dataarts/webgl-globe "WebGL Globe (Google Data Arts Team)")
+##### [orbital_objects (Alex Rasmussen)](https://github.com/alexras/orbital_objects/ " orbital_objects (Alex Rasmussen)") - [WebGL Globe (Google Data Arts Team)](https://github.com/dataarts/webgl-globe "WebGL Globe (Google Data Arts Team)")
