@@ -12,8 +12,11 @@ With the CelesTrak data as a source, I used the Skyfield library from Python to 
 
 As a result, this script is able to output a single array with all the coordinates of the satellites. Using Flask, the live data from the TLE API is provided to the front-end as an API to be consumed by ThreeJS
 
+The API was then deployed to Heroku.
+
 ### Front-end
 A simple WebGL/ThreeJS globe from Google DAT enabled me to easily place the satellites at scale.
+The front-end was then deployed to Firebase as a static website, using the API deployed on Heroku as the data source.
 
 ## References
 ##### **Thanks to:**
