@@ -16,6 +16,7 @@ The API was then deployed to Heroku.
 
 ### Front-end
 A simple WebGL/ThreeJS globe from Google DAT enabled me to easily place the satellites at scale.
+
 The front-end was then deployed to Firebase as a static website, using the API deployed on Heroku as the data source.
 
 ## References
