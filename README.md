@@ -2,7 +2,7 @@
 
 # Starlink Satellites - A ThreeJS Visualization powered by Python
 
-#### [Website](https://starlink-tracker-20c00.web.app "Website") - [API](https://dashboard.heroku.com/apps/starlink-tracker "API") - [TLE API (CelesTrak)](https://www.celestrak.com/NORAD/elements/starlink.txt "TLE API")
+#### [Website](https://starlink-tracker-20c00.web.app "Website") - [API](https://starlink-tracker.herokuapp.com "API") - [TLE API (CelesTrak)](https://www.celestrak.com/NORAD/elements/starlink.txt "TLE API")
 ## Development
 
 ### Backend
