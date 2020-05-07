@@ -1,6 +1,17 @@
 <!doctype html>
 <html lang="en">
 <head>
+
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/7.14.2/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/7.14.2/firebase-auth.js"></script>
+  <script defer src="/__/firebase/7.14.2/firebase-database.js"></script>
+  <script defer src="/__/firebase/7.14.2/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/7.14.2/firebase-storage.js"></script>
+  <!-- initialize the SDK after all desired features are loaded -->
+  <script defer src="/__/firebase/init.js"></script>
+
   <title>WebGL Globe</title>
   <meta charset="utf-8">
   <style type="text/css">
@@ -120,7 +131,7 @@
 
 <div id="currentInfo">Points marked in <span class="green">green</span> represent Starlink satellites.
   <br/><br/>Up and down arrows zoom in and out. Use the mouse to rotate. <br>Refreshing the page will get the <span class="green">latest position</span> of the satellites.<br /><br />Source data provided by <a href="http://celestrak.com">CelesTrak</a>
-  <br ><br />For more information visit <a href="https://github.com/NgyAnthony/skyfield_starlink">the Github repository.</a>
+  <br ><br />For more information visit <a href="https://github.com/NgyAnthony/Starlink_ThreeJS">the Github repository.</a>
 </div>
 
 <script type="text/javascript" src="third-party/Detector.js"></script>
