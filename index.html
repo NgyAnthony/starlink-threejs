@@ -148,7 +148,7 @@
   xhr.onreadystatechange = function(e) {
     if (xhr.readyState === 4) {
       if (xhr.status === 200) {
-        var data = JSON.parse(xhr.responseText);
+        var data = JSON.parse(xhr.responseText.replace(/\bNaN\b/g, "null"));
         window.data = data;
         globe.addData(data, {format: 'legend'});
         globe.createPoints();
