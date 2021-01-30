@@ -2,7 +2,7 @@
 
 # Starlink Satellites - A ThreeJS Visualization powered by Python
 
-Note: Website not working right now, will work on a fix.
+Note: Website working as of 30/02/2021. Please wait a few seconds for the Heroku dyno to start up
 
 #### [Website](https://starlink-tracker-20c00.web.app "Website") - [API](https://starlink-tracker.herokuapp.com "API") - [TLE API (CelesTrak)](https://www.celestrak.com/NORAD/elements/starlink.txt "TLE API")
 ## Development
